@@ -1,0 +1,12 @@
+<library path="lib/libodom_plugin">
+  <class name="odom_plugin/OdomPlugin" type="odom_plugin::OdomPlugin" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      A GUI plugin to view a odometry trajectory (x;y) 2D plot.
+    </description>
+    <qtgui>
+      <label>Odometry Plugin</label>
+      <icon type="theme">image-x-generic</icon>
+      <statustip>A GUI plugin to view a odometry trajectory (x;y) 2D plot.</statustip>
+    </qtgui>
+  </class>
+</library>
